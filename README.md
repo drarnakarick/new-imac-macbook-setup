@@ -51,5 +51,53 @@ To activate this go to the XQuartz/X11 preferences:
 
 Input —> tick the Emulate three button mouse  
 
-For Macbooc trackpad & magic mouse, simply highlight the text you want to copy and paste and do ‘option click’
+For Macbook trackpad & magic mouse, simply highlight the text you want to copy and paste and do ‘option click’
 
+### Customising Finder – show hidden .files
+
+You can get finder to show all the dot files in your home directory. To do this, open a terminal and type:
+
+```bash
+bash-3.2%> defaults write com.apple.finder AppleShowAllFiles YES
+or
+bash-3.2%> defaults write com.apple.finder AppleShowAllFiles  NO     (to disable)
+```
+
+- Hold ‘option/alt’ and right click mouse on the Finder icon —-> select Relaunch  (for iMac)
+- Hold ‘control’ and ‘option/alt’ and right click mouse on the Finder icon —-> select Relaunch  (for Macbook Pro)
+
+.dot files:
+
+From old mac home directory:  /home/your_name/  copy over: 
+
+.bashrc —> make sure the paths and alisases are correct and then source
+.bash_profile
+.emacs
+.emacs.d
+.Xdefaults
+.sm        ## only if you need Supermongo to generate old astro plots
+.idl_start ## only if installing a local version of IDL
+
+### Xcode: 
+
+Version 10.1 is currently installed. Installing new versions *should* get rid of the old – you would think…
+
+Xcode can be downloaded from the macports website or from the App Store
+
+Once you install the Xcode application, you need to install the command line tools. Do the following;
+
+```bash
+bash-3.2$ xcode-select —install
+xcode-select: note: install requested for command line developer tools
+```
+Xcode will also install git
+
+SourceTree (Version control GUI for GitHub & Bitbucket):
+
+Assuming you already have a GitHub account, install SourceTree and link the account properly and then clone your remote.
+Connect to your GitHub account using the HTPP protocol (not SSH0).
+
+Official guide for installing & connecting to your Atlassian account:   https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html
+
+Note make sure that in sourcetree:  Accounts —> General —> Projects path points to the right directory. 
+It’s worth making sure all the settings are the same on the iMac and Macbook.
