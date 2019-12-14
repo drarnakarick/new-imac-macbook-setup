@@ -36,9 +36,9 @@ This should sit in /Users/your_name/
 ```bash
 xterm*rightscrollBar:  on
 xterm*bellisurgent: 	true
-xterm*alarm.visible:  false
-xterm*geometry: 		  130x30+0-0bas
-xterm*Background: 		black
+xterm*alarm.visible: false
+xterm*geometry:      130x30+0-0bas
+xterm*Background: 	  	black
 xterm*Foreground:     green
 xterm*cursorColor:    LightBlue
 #xterm*pointerShape:  arrow
