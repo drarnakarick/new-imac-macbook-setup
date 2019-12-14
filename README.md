@@ -163,6 +163,7 @@ Anaconda Python will be installed in your home directory ~/anaconda3/
 
 Create virtual environments for different Python versions, and for when you are using Tensorflow (e.g. tfenv) and working with specific astronomy packages (e.g. astroenv).
 
+### R / R Studio
 
 ### Additional stuff
 
