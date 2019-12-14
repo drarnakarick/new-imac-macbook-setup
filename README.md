@@ -153,7 +153,7 @@ Also make sure you copy the old  .emacs directory which is in your home director
 
 First thing you should do after installing is to edit the existing .bashrc and make sure all the paths are correct. Comment anything that hasn’t yet been installed eg. IRAF, IDL etc. 
 
-### Python (Anaconda)
+### Python (Anaconda Install & Navigator)
 
 Refer to detailed *Python Anaconda Install* pages document – Includes notes about installed libraries (e.g. NLTK, XGBoost, LightGBM, Plotly, ipywidgets. AstroML libraries etc.)
 
@@ -173,13 +173,14 @@ Create virtual environments for different Python versions, and for when you are 
 - Install Trello & Slack desktop apps
 - Install Google Drive & Dropbox desktop apps
 - Install todoist and toggl desktop apps
+- Install d3.js libaries
 - Copy over installed Google font libraries
 
 ### Astronomy Software (if you need to look at old scripts etc.)
 
 Refer to detailed *Computer Setup Astronomy* pages document.
 
-- Install TexShop
+- Install TexShop & BibDesk
 - Install TopCat
 - Install IRAF (copy over custom startup files)
 - Install ds9/SAOimage
