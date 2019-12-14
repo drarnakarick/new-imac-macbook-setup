@@ -9,13 +9,15 @@ This document is an attempt to consolidate the various setup files I've kept ove
 
 ### Terminal & XQuartz 
 
-Current version of XQuartz 2.7.11 : https://www.xquartz.org/
+Change the deafult OSX Terminal shell to bash: Terminal -> Preferences -> Shell /bin/bash
+
+Current version of XQuartz (2.7.11) : https://www.xquartz.org/
 
 `USEFUL TIP:`  typing ‘env’ shows all your environment variables 
 
-A couple of years ago I moved from csh (tcsh) to bash. Used to have tcsh on all previous installations (mainly because of astronomy software), but I’m running into to many problems with software that needs to run in bash shells, e.g. Anaconda. My .bashrc file now contains the paths that were in .cshrc. 
+A few years ago I moved from csh (tcsh) to bash. I used to have tcsh on all previous installations (mainly because of astronomy software), but I’m running into to many problems with software that needs to run in bash shells, e.g. Anaconda. No te that SPLOT (Interactive 3D PDFs) also requires bach. My .bashrc file now contains most of the paths/alias that were in .cshrc, with the exception of some astro software which I no longer use (e.g. IDL).
 
-A nice translater for changing tcsh to bash commands: http://joelinoff.com/blog/?page_id=235
+A nice translater for changing tcsh (.cshrc) to bash (.bshrc) commands: http://joelinoff.com/blog/?page_id=235
 
 Do you need a .bash_profile ? Good question. 
 
