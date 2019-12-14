@@ -155,7 +155,7 @@ First thing you should do after installing is to edit the existing .bashrc and m
 
 ### Python (Anaconda)
 
-Copy over detailed *Python Anaconda Install* pages document – Includes notes about installed libraries (e.g. NLTK)
+Refer to detailed *Python Anaconda Install* pages document – Includes notes about installed libraries (e.g. NLTK, XGBoost, LightGBM, Plotly, ipywidgets. AstroML libraries etc.)
 
 Download the *Python 3.7 64-bit Graphical* or *Command-Line installer*. The installation instructions are on the download page. You may as well just install the latest Python 3.7 release... Python 2.7 is already installed as part of OSX.
 
@@ -177,7 +177,7 @@ Create virtual environments for different Python versions, and for when you are 
 
 ### Astronomy Software (if you need to look at old scripts etc.)
 
-Copy over detailed *Computer Setup Astronomy* pages document.
+Refer to detailed *Computer Setup Astronomy* pages document.
 
 - Install TexShop
 - Install TopCat
