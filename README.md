@@ -172,6 +172,7 @@ Create virtual environments for different Python versions, and for when you are 
 - Install GIMP & Inkscape
 - Install Trello & Slack desktop apps
 - Install Google Drive & Dropbox desktop apps
+- Install todoist and toggl desktop apps
 - Copy over installed Google font libraries
 
 ### Astronomy Software (if you need to look at old scripts etc.)
