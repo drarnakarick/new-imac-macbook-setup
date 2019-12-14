@@ -153,6 +153,17 @@ Also make sure you copy the old  .emacs directory which is in your home director
 
 First thing you should do after installing is to edit the existing .bashrc and make sure all the paths are correct. Comment anything that hasn’t yet been installed eg. IRAF, IDL etc. 
 
+### Python (Anaconda)
+
+Copy of detailed *Python Anaconda Install* pages document
+
+Download the *Python 3.7 64-bit Graphical* or *Command-Line installer*. The installation instructions are on the download page. You may as well just install the latest Python 3.7 release... Python 2.7 is already installed as part of OSX.
+
+Anaconda Python will be installed in your home directory ~/anaconda3/
+
+Create virtual environments for different Python versions, and for when you are using Tensorflow (e.g. tfenv) and working with specific astronomy packages (e.g. astroenv).
+
+
 ### Additional stuff
 
 - Install Google Chrome
@@ -162,7 +173,9 @@ First thing you should do after installing is to edit the existing .bashrc and m
 - Intall Inkscape
 - Copy over downloaded font libraries
 
-## Astronomy Software (if you need to look at old scripts etc.)
+### Astronomy Software (if you need to look at old scripts etc.)
+
+Copy of detailed *Computer Setup Astronomy* pages document
 
 - Install TexShop
 - Install TopCat
