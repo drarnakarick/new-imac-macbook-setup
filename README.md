@@ -72,6 +72,7 @@ bash-3.2%> defaults write com.apple.finder AppleShowAllFiles  NO     (to disable
 
 From old mac home directory:  /home/your_name/  copy over: 
 
+```raw
 .bashrc —> make sure the paths and alisases are correct and then source
 .bash_profile
 .emacs
@@ -79,6 +80,7 @@ From old mac home directory:  /home/your_name/  copy over:
 .Xdefaults
 .sm        ## only if you need Supermongo to generate old astro plots
 .idl_start ## only if installing a local version of IDL
+```
 
 ### Xcode: 
 
