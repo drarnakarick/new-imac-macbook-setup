@@ -25,4 +25,31 @@ Note:  the Anacaonda installation creates (add to) a .bash_profile.
 
 Man pages are access using ‘xman’. 
 
+### Customising the XQuartz terminal: 
+
+Advice from Astro Better: http://www.astrobetter.com/blog/2010/08/25/xterm-color/
+
+Create or (copy from your old home directory) an .Xdefaults file:
+
+This should sit in /Users/your_name/
+
+```bash
+xterm*rightscrollBar:  on
+xterm*bellisurgent: 	true
+xterm*alarm.visible:  false
+xterm*geometry: 		  130x30+0-0bas
+xterm*Background: 		black
+xterm*Foreground:     green
+xterm*cursorColor:    LightBlue
+#xterm*pointerShape:  arrow
+#xterm*pointerColor:  blue
+```
+
+Three button mouse:
+
+To activate this go to the XQuartz/X11 preferences:
+
+Input —> tick the Emulate three button mouse  
+
+For Macbooc trackpad & magic mouse, simply highlight the text you want to copy and paste and do ‘option click’
 
