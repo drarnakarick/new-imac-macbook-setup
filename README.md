@@ -92,7 +92,7 @@ xcode-select: note: install requested for command line developer tools
 ```
 Xcode will also install git
 
-SourceTree (Version control GUI for GitHub & Bitbucket):
+### SourceTree (Version control GUI for GitHub & Bitbucket):
 
 Assuming you already have a GitHub account, install SourceTree and link the account properly and then clone your remote.
 Connect to your GitHub account using the HTPP protocol (not SSH0).
@@ -101,3 +101,74 @@ Official guide for installing & connecting to your Atlassian account:   https:
 
 Note make sure that in sourcetree:  Accounts —> General —> Projects path points to the right directory. 
 It’s worth making sure all the settings are the same on the iMac and Macbook.
+
+
+### Macports: 
+
+ After installing, add the following to your .bashrc file
+
+export PATH=$PATH:”/opt/local/bin:”
+
+To use macports simply type:  
+
+```bash
+port 
+MacPorts 2.4.2
+Entering shell mode... ("help" for help, "quit" to quit)
+```
+https://guide.macports.org/#using.port
+
+Useful commands: 
+> port version  		    	## 	should show: 'Version: 2.4.1’
+> port help 
+> sudo port selfupdate   ##	to update ports and packages
+> port search 			     ## 	to look for packages
+ 
+### Atom, LightTable & Aquamacs (use this instead of emacs22)
+
+Use Atom (or LightTable) as a code editor It’s really nice for coding and can do all sorts of fandangled stuff. Best of all it’s a really nice way to display and open all the .files in your home directory  :)
+
+(but if you must use emacs... Install Aquamacs: http://aquamacs.org/
+
+Unless you're feeling nostalgic?
+
+emacs22 is the version I’ve always favoured. It's part of XQuartz. You can find it in the /sw/bin/ directory.  
+If it’s not there you can install it using macports;
+
+```bash
+bash-3.2$ sudo port install emacs22
+bash-3.2$ sudo port install emacs-app   # if you want the OSX version as well
+
+bash-3.2$ cd /sw/bin
+bash-3.2$ emacs22 -version
+GNU Emacs 22.2.1
+```
+To run just type:
+
+```
+bash-3.2$> emacs22 &         # or whatever aliases you moved into the .bashrc file
+```
+
+Also make sure you copy the old  .emacs directory which is in your home directory.
+
+First thing you should do after installing is to edit the existing .bashrc and make sure all the paths are correct. Comment anything that hasn’t yet been installed eg. IRAF, IDL etc. 
+
+### Additional stuff
+
+- Install Google Chrome
+– Install Momentum Dash, Buffer, AdBlock extestions
+- Install f.lux
+- Install GIMP
+- Intall Inkscape
+- Copy over downloaded font libraries
+
+## Astronomy Software (if you need to look at old scripts etc.)
+
+- Install TexShop
+- Install TopCat
+- Install IRAF (copy over custom startup files)
+- Install ds9/SAOimage
+- Instal SM (copy over startup files)
+– Install S2PLOT
+– Recreate PATHS/aliases etc. from old .tcsh file
+
